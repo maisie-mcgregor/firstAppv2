@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package firstapp;
-
+import java.util.Scanner;
 /**
  *
  * @author 1505669
@@ -18,14 +18,17 @@ public class FirstApp {
         
 
         // TODO code application logic here
-        
+        Scanner newLine = new Scanner(System.in);
          String encryptedValue="";
-         String input="Becky Esplin";
+         String input="";
         // a few changes here
         
         // another few changes
         
         System.out.print("First App");
+        
+        System.out.println("\nEnter the value to be encrypted");
+        input = newLine.nextLine();
         encryptedValue=encrypt(input, encryptedValue);
         System.out.println("\n"+encryptedValue);
     }
