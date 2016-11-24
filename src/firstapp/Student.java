@@ -15,11 +15,11 @@ public class Student {
     String firstName;
     String lastName;
     
-    public Student(age, height, firstName, lastName){
+    public Student(int age, double height, String firstName, String lastName){
     this.age = age;
     this.height = height;
     this.firstName = firstName;
-    this.lastname = lastName;
+    this.lastName = lastName;
     }
     
     public int getAge()
