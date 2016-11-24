@@ -34,7 +34,8 @@ public class FirstApp {
     }
     
     public static String encrypt(String input, String encryptedValue){
-    for(int i=0;i<input.length(); i++)
+   
+        for(int i=0;i<input.length(); i++)
     {
         char c = input.charAt(i);
         if(c >= 'a' && c <='m')
