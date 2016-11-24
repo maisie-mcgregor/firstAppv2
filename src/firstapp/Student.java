@@ -21,4 +21,21 @@ public class Student {
     this.firstName = firstName;
     this.lastname = lastName;
     }
+    
+    public void getAge()
+    {
+        return age;
+    }
+    public void getHeight()
+    {
+        return height;
+    }
+    public void getFirstName()
+    {
+        return firstName;
+    }
+    public void getLastName()
+    {
+        return lastName;
+    }
 }
