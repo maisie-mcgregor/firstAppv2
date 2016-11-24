@@ -22,19 +22,19 @@ public class Student {
     this.lastname = lastName;
     }
     
-    public void getAge()
+    public int getAge()
     {
         return age;
     }
-    public void getHeight()
+    public double getHeight()
     {
         return height;
     }
-    public void getFirstName()
+    public String getFirstName()
     {
         return firstName;
     }
-    public void getLastName()
+    public String getLastName()
     {
         return lastName;
     }
